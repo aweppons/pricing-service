@@ -1,6 +1,4 @@
-#Testing an update
-
-from flask import Flask, Blueprint
+from flask import Flask
 from views.items import item_blueprint
 
 app = Flask(__name__)
